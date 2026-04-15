@@ -1,0 +1,15 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="56" fill="#090909"/>
+  <defs>
+    <linearGradient id="blade" x1="36" y1="28" x2="214" y2="224" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1B48D"/>
+      <stop offset="0.52" stop-color="#CB7448"/>
+      <stop offset="1" stop-color="#7A3215"/>
+    </linearGradient>
+  </defs>
+  <path d="M128.305 25L221 63.04L180.308 109.096L142.605 93.64L128.305 25Z" fill="url(#blade)"/>
+  <path d="M128.305 25L35 63.04L75.692 109.096L113.395 93.64L128.305 25Z" fill="url(#blade)"/>
+  <path d="M77.358 114.247L128.312 136.315L103.461 229L35 194.156L77.358 114.247Z" fill="url(#blade)"/>
+  <path d="M179.253 114.247L128.299 136.315L153.151 229L221.612 194.156L179.253 114.247Z" fill="url(#blade)"/>
+  <path d="M97.94 112.852L128.301 100.399L158.661 112.852L128.301 126.011L97.94 112.852Z" fill="#F6F1EB"/>
+</svg>

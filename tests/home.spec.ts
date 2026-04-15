@@ -47,7 +47,14 @@ test.describe("CUPRA Raval landing page", () => {
       "src",
       /clarity\.ms\/tag\/wbzs0weet7/
     );
-    await expect(page.locator('meta[name="ga4-measurement-id"]')).toHaveAttribute("content", "");
+    await expect(page.locator('meta[name="ga4-measurement-id"]')).toHaveAttribute(
+      "content",
+      "G-0TT1BVYQPV"
+    );
+    await expect(page.locator("#ga4-script")).toHaveAttribute(
+      "src",
+      /googletagmanager\.com\/gtag\/js\?id=G-0TT1BVYQPV/
+    );
 
     const structuredData = page.locator('script[type="application/ld+json"]').first();
     const schema = JSON.parse((await structuredData.textContent()) || "{}");
